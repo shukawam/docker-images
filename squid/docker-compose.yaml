@@ -5,6 +5,6 @@ services:
     build: .
     image: shukawam/squid:1.0
     ports:
-      - "3128:3128"
+      - "13128:3128"
     volumes:
       - "./etc/squid/squid.conf:/etc/squid/conf.d/default.conf"
