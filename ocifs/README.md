@@ -8,7 +8,7 @@
 docker image build -t ocifs .
 ```
 
-### how to use
+## how to use
 
 ```sh
 $ docker container run -it --rm ocifs help
